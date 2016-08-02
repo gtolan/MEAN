@@ -21,6 +21,14 @@ angular.module('users').config(['$stateProvider',
         url: '/password',
         templateUrl: 'modules/users/client/views/settings/change-password.client.view.html'
       })
+      .state('settings.cards', {
+        url: '/cards',
+        templateUrl: 'modules/users/client/views/settings/cards.client.view.html'
+      })
+      .state('settings.care', {
+        url: '/Card-Care',
+        templateUrl: 'modules/users/client/views/settings/care.client.view.html'
+      })
       .state('settings.accounts', {
         url: '/accounts',
         templateUrl: 'modules/users/client/views/settings/manage-social-accounts.client.view.html'

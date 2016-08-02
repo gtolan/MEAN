@@ -34,5 +34,23 @@ angular.module('users').controller('SocialAccountsController', ['$scope', '$http
         $scope.error = response.message;
       });
     };
+  
+
+      
+    var nextButton = document.getElementById('next'),
+      prevButton = document.getElementById('previous'),
+      carousel = document.getElementById('carousel'),
+      deg = 0;
+
+    nextButton.onclick = function() {
+      deg = deg - 90;
+      carousel.style.cssText = 'transform:rotateY(' + deg + 'deg);transition:transform 2s;';
+    };
+    prevButton.onclick = function() {
+      deg = deg + 90;
+      carousel.style.cssText = 'transform:rotateY(' + deg + 'deg);transition:transform 2s;';
+    };
+
+      
   }
 ]);

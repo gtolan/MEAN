@@ -1,4 +1,5 @@
-<section class="row" ng-controller="SocialAccountsController">
+<section class="row" ng-controller="SocialAccountsController">  <!---->
+<!--
   <h3 class="col-md-12 text-center" ng-show="hasConnectedAdditionalSocialAccounts()">Connected social accounts:</h3>
   <div class="col-md-12 text-center">
     <div ng-repeat="(providerName, providerData) in user.additionalProvidersData" class="social-account-container">
@@ -47,4 +48,634 @@
       </a>
     </div>
   </div>
+-->
+    
+    
+    
+<!--
+    <div class="row">
+    <div class="Acc1 col-xs-4">
+        <button class="btn btn-primary btn-sm ExpandBut pull-right"><span class="glyphicon glyphicon-plus plusGlyph" aria-hidden="true"></span></button>
+     <table >       
+     <tr >
+    <th><b>Flux Card ID</b></th>
+    <th><b>A.D.199Y</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">Category </td>
+    <td class="accTitle"><select>
+  <option value="volvo">Online Shopping</option>
+  <option value="saab">InStore Shopping</option>
+  <option value="mercedes">Family Member</option>
+  <option value="audi">Household Bills</option>
+  <option value="audi">Travel</option>
+  <option value="audi">Contactless Use</option>
+</select> </td>
+
+  </tr>
+ <tr>
+    <td class="accTitle">Set Limit</td>
+    <td class="accTitle">       <div class="input-group LimitInput">
+  <input type="text" class="form-control inputLimit" style="height:18px;width:100%;" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-addon" style="padding:0px;">.00</span>
+</div></td>
+  </tr>
+
+         
+<tr>
+    <td class="accTitle">Account ID</td>
+    <td class="accTitle"> 1</td>
+  </tr> 
+<tr>
+    <td class="accTitle">Card Number</td>
+    <td class="accTitle"> 8641 1921 6710 ****</td>
+  </tr> 
+        </table>  
+       <hr>
+      
+         <table >       
+     <tr >
+    <th><b>Date</b></th>
+    <th><b>Transaction</b></th>
+     <th><b>Ammount</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">Spotify</td>
+    <td class="accTitle">10.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">Spotify</td>
+    <td class="accTitle">10.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">Apple Itunes</td>
+    <td class="accTitle">22.99</td>
+
+  </tr>
+        <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">Asos</td>
+    <td class="accTitle">50.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">Tesco</td>
+    <td class="accTitle">110.99</td>
+
+  </tr>
+        </table>
+        
+    </div>
+
+        
+        
+    <div class="Acc2 col-xs-4">
+        <button class="btn btn-primary btn-sm ExpandBut pull-right"><span class="glyphicon glyphicon-plus plusGlyph" aria-hidden="true"></span></button>
+     <table >       
+     <tr >
+    <th><b>Flux Card ID</b></th>
+    <th><b>A.D.199Z</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">Category </td>
+    <td class="accTitle"><select>
+ <option value="saab">InStore Shopping</option>
+  <option value="volvo">Online Shopping</option>
+ <option value="mercedes">Family Member</option>
+  <option value="audi">Household Bills</option>
+  <option value="audi">Travel</option>
+  <option value="audi">Contactless Use</option>
+</select> </td>
+
+  </tr>
+ <tr>
+    <td class="accTitle">Set Limit</td>
+    <td class="accTitle"> 
+        <div class="input-group LimitInput">
+  <input type="text" class="form-control inputLimit" style="height:18px;width:100%;" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-addon" style="padding:0px;">.00</span>
+</div></td>
+  </tr>
+
+       <tr>
+    <td class="accTitle">Account ID</td>
+    <td class="accTitle"> 2</td>
+  </tr>
+<tr>
+    <td class="accTitle">Card Number</td>
+    <td class="accTitle"> 9541 1741 4710 ****</td>
+  </tr>          
+        </table>  
+       <hr>
+       
+          <table >       
+     <tr >
+    <th><b>Date</b></th>
+    <th><b>Transaction</b></th>
+     <th><b>Ammount</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">Spar</td>
+    <td class="accTitle">17.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">Coffee Beans</td>
+    <td class="accTitle">8.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">O'Briens</td>
+    <td class="accTitle">13.99</td>
+
+  </tr>
+        <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">McDonalds</td>
+    <td class="accTitle">21.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">Meteor</td>
+    <td class="accTitle">20.00</td>
+
+  </tr>
+                         <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">Health Store</td>
+    <td class="accTitle">12.50</td>
+
+  </tr>
+        </table>    
+        
+    </div>
+        
+        
+        
+        
+      <div class="Acc1 col-xs-4">
+        <button class="btn btn-primary btn-sm ExpandBut pull-right"><span class="glyphicon glyphicon-plus plusGlyph" aria-hidden="true"></span></button>
+     <table >       
+     <tr >
+    <th><b>Flux Card ID</b></th>
+    <th><b>A.D.199Y</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">Category </td>
+    <td class="accTitle"><select>
+ <option value="audi">Household Bills</option>
+  <option value="volvo">Online Shopping</option>
+  <option value="saab">InStore Shopping</option>
+  <option value="mercedes">Family Member</option>
+ <option value="audi">Travel</option>
+  <option value="audi">Contactless Use</option>
+</select> </td>
+
+  </tr>
+ <tr>
+    <td class="accTitle">Set Limit</td>
+    <td class="accTitle">      <div class="input-group LimitInput">
+  <input type="text" class="form-control inputLimit" style="height:18px;width:100%;" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-addon" style="padding:0px;">.00</span>
+</div></td>
+  </tr>
+        
+         
+ <tr>
+    <td class="accTitle">Account ID</td>
+    <td class="accTitle"> 3</td>
+  </tr>
+
+<tr>
+    <td class="accTitle">Card Number</td>
+    <td class="accTitle"> 8641 3988 3461 ****</td>
+  </tr> 
+        </table>  
+      <hr>
+      
+      
+       
+          <table >       
+     <tr >
+    <th><b>Date</b></th>
+    <th><b>Transaction</b></th>
+     <th><b>Ammount</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">ESB</td>
+    <td class="accTitle">89.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">Gas</td>
+    <td class="accTitle">48.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">Virgin Media</td>
+    <td class="accTitle">43.99</td>
+
+  </tr>
+        <tr>
+    <td class="accTitle">18/1 </td>
+            <td class="accTitle">Sky</td>
+    <td class="accTitle">51.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle"></td>
+    <td class="accTitle">20.00</td>
+
+  </tr>
+  
+        </table>       
+          
+       
+    </div>
+      <hr>   
+   
+    </div>
+-->
+    
+    
+    <div class="row 3dCarousel">
+        <section id="options" class="text-center Accoptions" >
+  <p id="navigation">
+    <button class="accBut" id="previous">Previous</button>
+    <button class="accBut" id="next">Next</button>
+  </p>
+</section>
+ <section class="container4">
+  <div id="carousel">
+    <figure>1
+        <div class="col-xs-3">
+        </div>
+      <div class="Acc1 text-center col-xs-8">
+        
+     <table >       
+     <tr >
+    <th><b>Flux Card ID</b></th>
+    <th><b>A.D.199Y</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">Category </td>
+    <td class="accTitle"><select>
+ <option value="audi">Household Bills</option>
+  <option value="volvo">Online Shopping</option>
+  <option value="saab">InStore Shopping</option>
+  <option value="mercedes">Family Member</option>
+ <option value="audi">Travel</option>
+  <option value="audi">Contactless Use</option>
+</select> </td>
+
+  </tr>
+ <tr>
+    <td class="accTitle">Set Limit</td>
+    <td class="accTitle">      <div class="input-group LimitInput">
+  <input type="text" class="form-control inputLimit" style="height:18px;width:100%;" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-addon" style="padding:0px;">.00</span>
+</div></td>
+  </tr>
+        
+         
+ <tr>
+    <td class="accTitle">Account ID</td>
+    <td class="accTitle"> 1</td>
+  </tr>
+
+<tr>
+    <td class="accTitle">Card Number</td>
+    <td class="accTitle"> 8641 3988 3461 ****</td>
+  </tr> 
+        </table>  
+   
+      <br>
+     <br>
+      
+       
+          <table >       
+     <tr >
+    <th><b>Date</b></th>
+    <th><b>Transaction</b></th>
+     <th><b>Ammount</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">ESB</td>
+    <td class="accTitle">89.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">Gas</td>
+    <td class="accTitle">48.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">Virgin Media</td>
+    <td class="accTitle">43.99</td>
+
+  </tr>
+        <tr>
+    <td class="accTitle">18/1 </td>
+            <td class="accTitle">Sky</td>
+    <td class="accTitle">51.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle"></td>
+    <td class="accTitle">20.00</td>
+
+  </tr>
+  
+        </table>       
+        </div>
+        <div class="col-xs-2">
+ 
+        </div>
+      </figure>
+      
+      
+    <figure><div class="Acc1 text-center col-xs-offset-3 col-xs-8">
+     <table >       
+     <tr >
+    <th><b>Flux Card ID</b></th>
+    <th><b>A.D.199Z</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">Category </td>
+    <td class="accTitle"><select>
+ <option value="saab">InStore Shopping</option>
+  <option value="volvo">Online Shopping</option>
+ <option value="mercedes">Family Member</option>
+  <option value="audi">Household Bills</option>
+  <option value="audi">Travel</option>
+  <option value="audi">Contactless Use</option>
+</select> </td>
+
+  </tr>
+ <tr>
+    <td class="accTitle">Set Limit</td>
+    <td class="accTitle"> 
+        <div class="input-group LimitInput">
+  <input type="text" class="form-control inputLimit" style="height:18px;width:100%;" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-addon" style="padding:0px;">.00</span>
+</div></td>
+  </tr>
+
+       <tr>
+    <td class="accTitle">Account ID</td>
+    <td class="accTitle"> 2</td>
+  </tr>
+<tr>
+    <td class="accTitle">Card Number</td>
+    <td class="accTitle"> 9541 1741 4710 ****</td>
+  </tr>          
+        </table>  
+    <br>
+     <br>
+       
+          <table >       
+     <tr >
+    <th><b>Date</b></th>
+    <th><b>Transaction</b></th>
+     <th><b>Ammount</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">Spar</td>
+    <td class="accTitle">17.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">Coffee Beans</td>
+    <td class="accTitle">8.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">O'Briens</td>
+    <td class="accTitle">13.99</td>
+
+  </tr>
+        <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">McDonalds</td>
+    <td class="accTitle">21.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">Meteor</td>
+    <td class="accTitle">20.00</td>
+
+  </tr>
+                         <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">Health Store</td>
+    <td class="accTitle">12.50</td>
+
+  </tr>
+        </table>    
+        
+    </div></figure>
+    <figure>    <div class="Acc1 text-center col-xs-offset-3 col-xs-8">
+        
+     <table >       
+     <tr >
+    <th><b>Flux Card ID</b></th>
+    <th><b>A.D.199Y</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">Category </td>
+    <td class="accTitle"><select>
+  <option value="volvo">Online Shopping</option>
+  <option value="saab">InStore Shopping</option>
+  <option value="mercedes">Family Member</option>
+  <option value="audi">Household Bills</option>
+  <option value="audi">Travel</option>
+  <option value="audi">Contactless Use</option>
+</select> </td>
+
+  </tr>
+ <tr>
+    <td class="accTitle">Set Limit</td>
+    <td class="accTitle">       <div class="input-group LimitInput">
+  <input type="text" class="form-control inputLimit" style="height:18px;width:100%;" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-addon" style="padding:0px;">.00</span>
+</div></td>
+  </tr>
+
+         
+<tr>
+    <td class="accTitle">Account ID</td>
+    <td class="accTitle"> 1</td>
+  </tr> 
+<tr>
+    <td class="accTitle">Card Number</td>
+    <td class="accTitle"> 8641 1921 6710 ****</td>
+  </tr> 
+        </table>  
+      <br>
+     <br>
+      
+         <table >       
+     <tr >
+    <th><b>Date</b></th>
+    <th><b>Transaction</b></th>
+     <th><b>Ammount</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">Spotify</td>
+    <td class="accTitle">10.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">Spotify</td>
+    <td class="accTitle">10.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">Apple Itunes</td>
+    <td class="accTitle">22.99</td>
+
+  </tr>
+        <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">Asos</td>
+    <td class="accTitle">50.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">Tesco</td>
+    <td class="accTitle">110.99</td>
+
+  </tr>
+        </table>
+        
+    </div></figure>
+    <figure>4
+       <div class="Acc1 text-center col-xs-offset-3 col-xs-8">
+       
+     <table >       
+     <tr >
+    <th><b>Flux Card ID</b></th>
+    <th><b>A.D.199Y</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">Category </td>
+    <td class="accTitle"><select>
+ <option value="audi">Household Bills</option>
+  <option value="volvo">Online Shopping</option>
+  <option value="saab">InStore Shopping</option>
+  <option value="mercedes">Family Member</option>
+ <option value="audi">Travel</option>
+  <option value="audi">Contactless Use</option>
+</select> </td>
+
+  </tr>
+ <tr>
+    <td class="accTitle">Set Limit</td>
+    <td class="accTitle">      <div class="input-group LimitInput">
+  <input type="text" class="form-control inputLimit" style="height:18px;width:100%;" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-addon" style="padding:0px;">.00</span>
+</div></td>
+  </tr>
+        
+         
+ <tr>
+    <td class="accTitle">Account ID</td>
+    <td class="accTitle"> 4</td>
+  </tr>
+
+<tr>
+    <td class="accTitle">Card Number</td>
+    <td class="accTitle"> 8641 3988 3461 ****</td>
+  </tr> 
+        </table>  
+     
+      <br>
+     <br>
+      
+       
+          <table >       
+     <tr >
+    <th><b>Date</b></th>
+    <th><b>Transaction</b></th>
+     <th><b>Ammount</b></th>
+ 
+  </tr>     
+        <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">ESB</td>
+    <td class="accTitle">89.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">19/1 </td>
+    <td class="accTitle">Gas</td>
+    <td class="accTitle">48.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle">Virgin Media</td>
+    <td class="accTitle">43.99</td>
+
+  </tr>
+        <tr>
+    <td class="accTitle">18/1 </td>
+            <td class="accTitle">Sky</td>
+    <td class="accTitle">51.99</td>
+
+  </tr>
+            <tr>
+    <td class="accTitle">18/1 </td>
+    <td class="accTitle"></td>
+    <td class="accTitle">20.00</td>
+
+  </tr>
+  
+        </table>       
+          
+       
+    </div></figure>
+  </div>
+</section>
+
+    
 </section>

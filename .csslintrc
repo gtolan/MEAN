@@ -11,5 +11,11 @@
   "regex-selectors": false,
   "unique-headings": false,
   "universal-selector": false,
-  "unqualified-attributes": false
+  "unqualified-attributes": false,
+  "ids": false,
+  "duplicate-properties": false,
+  "compatible-vendor-prefixes": false,
+  "gradient": false,
+  "fallback-colors": false,
+  "zero-units": false
 }

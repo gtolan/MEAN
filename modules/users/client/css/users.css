@@ -34,3 +34,865 @@
   min-height: 150px;
   max-height: 150px;
 }
+.Acc2 {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.settingsTitle {
+    color:black;
+   
+}
+.HeadPage {
+    margin-left: 12px;
+    margin-top:80px !important;
+  
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: dimgray;
+}
+.settingsPage {
+    border-right: 1px solid dimgray;
+}
+.select {
+    padding:1px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+#listCarou {
+	padding: 0;
+	list-style: none;
+}
+
+
+
+
+.contain {
+	width: 500px;
+	height: 300px;
+	text-align: left;
+	margin: 60px auto;
+	-webkit-perspective: 1000px;
+	-webkit-perspective-origin: 50% -20%;
+}
+
+/*
+.carousel {
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform: translateZ(-540px);
+	position: relative;
+	margin: 0;
+	width: 500px;
+	height: 300px;
+	-webkit-transition: 1s;
+}
+
+.carousel img {
+    width:500px;
+    height:300px;
+	position: absolute;
+	border: 1px solid lightgray;
+	opacity: .5;
+	-webkit-transition: 1s;
+}
+.carousel h1  {
+  background:white;
+    width:500px;
+    height:300px;
+	position: absolute;
+	border: 2px solid lightgray;
+	opacity:.8;
+	-webkit-transition: 1s;
+}
+*/
+
+/*
+
+.carousel li:nth-child(1) img { -webkit-transform: translateZ(540px) scale(.8); }
+
+.carousel li:nth-child(2) img { -webkit-transform: rotateY(45deg) translateZ(540px) scale(.8); }
+.carousel li:nth-child(3) img { -webkit-transform: rotateY(90deg) translateZ(540px) scale(.8); }
+.carousel li:nth-child(4) img { -webkit-transform: rotateY(135deg) translateZ(540px) scale(.8); }
+.carousel li:nth-child(5) img { -webkit-transform: rotateY(180deg) translateZ(540px) scale(.8); }
+.carousel li:nth-child(6) img { -webkit-transform: rotateY(225deg) translateZ(540px) scale(.8); }
+.carousel li:nth-child(7) img { -webkit-transform: rotateY(270deg) translateZ(540px) scale(.8); }
+.carousel li:nth-child(8) img { -webkit-transform: rotateY(315deg) translateZ(540px) scale(.8); }
+
+label span{
+	cursor: pointer;
+	background: black;
+	color:white;
+	display: inline-block;
+	border-radius: 50%;
+	width: 30px;
+	padding-top: 7px;
+	height: 23px;
+	font: .9em Arial;
+}
+
+label span:hover {
+	background: cadetblue;
+}
+
+.input {
+	position: absolute;
+	left: -9999px;
+}
+
+.input:checked + label {
+	font-weight: bold;
+	background: cadetblue;
+}
+
+input[value="2"]:checked ~ .contain .carousel { -webkit-transform: translateZ(-540px) rotateY(-45deg); }
+input[value="3"]:checked ~ .contain .carousel { -webkit-transform: translateZ(-540px) rotateY(-90deg); }
+input[value="4"]:checked ~ .contain .carousel { -webkit-transform: translateZ(-540px) rotateY(-135deg); }
+input[value="5"]:checked ~ .contain .carousel { -webkit-transform: translateZ(-540px) rotateY(-180deg); }
+input[value="6"]:checked ~ .contain .carousel { -webkit-transform: translateZ(-540px) rotateY(-225deg); }
+input[value="7"]:checked ~ .contain .carousel { -webkit-transform: translateZ(-540px) rotateY(-270deg); }
+input[value="8"]:checked ~ .contain .carousel { -webkit-transform: translateZ(-540px) rotateY(-315deg); }
+
+input[value="1"]:checked ~ .contain .carousel li:nth-child(1) img { -webkit-transform: translateZ(540px) scale(1); opacity: 1; }
+input[value="2"]:checked ~ .contain .carousel li:nth-child(2) img { -webkit-transform: rotateY(45deg) translateZ(540px) scale(1); opacity: 1; }
+input[value="3"]:checked ~ .contain .carousel li:nth-child(3) img { -webkit-transform: rotateY(90deg) translateZ(540px) scale(1); opacity: 1; }
+input[value="4"]:checked ~ .contain .carousel li:nth-child(4) img { -webkit-transform: rotateY(135deg) translateZ(540px) scale(1); opacity: 1; }
+input[value="5"]:checked ~ .contain .carousel li:nth-child(5) img { -webkit-transform: rotateY(180deg) translateZ(540px) scale(1); opacity: 1; }
+input[value="6"]:checked ~ .contain .carousel li:nth-child(6) img { -webkit-transform: rotateY(225deg) translateZ(540px) scale(1); opacity: 1; }
+input[value="7"]:checked ~ .contain .carousel li:nth-child(7) img { -webkit-transform: rotateY(270deg) translateZ(540px) scale(1); opacity: 1; }
+input[value="8"]:checked ~ .contain .carousel li:nth-child(8) img { -webkit-transform: rotateY(315deg) translateZ(540px) scale(1); opacity: 1; }
+*/
+
+/*
+
+
+
+
+ scond carousel
+.container4 {
+   width: 586px;
+  height: 500px;
+  position: relative;
+  perspective: 800px;
+  margin: 150px auto;
+}
+
+#carousel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+#carousel figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 586px;
+  height: 516px;
+}
+
+#carousel figure:nth-child(1) {
+  background: white;
+  transform: rotateY(0deg) translateZ(250px);
+    opacity: .95;
+}
+
+#carousel figure:nth-child(2) {
+  background: white;
+  transform: rotateY(90deg) translateZ( 250px);
+     opacity: .95;
+}
+
+#carousel figure:nth-child(3) {
+  background-color: white;
+  transform: rotateY(180deg) translateZ(250px);
+     opacity: .95;
+}
+*/
+
+/*
+#carousel figure:nth-child(4) {
+  background: white;
+  transform: rotateY(270deg) translateZ(230px);
+     opacity: .9;
+}
+.accBut {outline: none;
+    border: 1px solid black;
+    text-transform: uppercase;
+    color:dimgray;
+    font-size:14px;
+    background-color: white !important;
+    border-radius: 0px;
+    outline: none;
+}
+.Accoptions {margin-bottom: 30px;}
+*/
+
+
+
+.myBox{
+	width:170px;
+	margin:350px auto;
+	padding:10px 0;
+	color:white;
+	position:relative;
+	background-color:red;
+    transform: rotateX(-90deg);
+	transform-style: preserve-3d;  
+	backface-visiblility:hidden;
+}
+
+/*
+.pos1 { 
+    border: 1px solid lightgray;
+    width:170px;
+	margin:0 auto;
+	padding:10px;
+    color:black;
+	position:relative;
+*/
+/*
+	background-color:transparent;
+	transform-style: preserve-3d;
+*/
+/*    -ms-transform: scale(.5,.6);  IE 9 */
+/*    -webkit-transform: scale(.5,.6);  Safari */
+/*    transform: scale(.5,.6);  Standard syntax */
+    
+
+.page-content {
+    margin-top:450px;
+    text-align: center;
+    height:500px;
+}
+
+
+
+.myBoxB {
+	width:170px;
+	position:absolute;
+	top:0;
+	left: 0;
+	transform-origin:center top;	
+	transform: rotateX(-90deg);
+
+}
+.myBoxB span {
+	display:block;
+	padding:10px 0;
+	border:1px solid red;
+	color:red;
+	background-color:white;
+	transform: rotateX(-180deg);
+}
+.perspective {
+	perspective: 800px;
+}
+.cardConv1 {
+    width: 250px;
+    height: 170px;
+    opacity: .9;
+    position: absolute;
+    z-index: 4;
+    top:50px;
+}
+.cardsConvGroup {
+     list-style: none;
+}
+.buttonchevron {
+    padding-top: 24px;
+    background-color: transparent !important;
+    color:black;
+    margin:0% 46% 10px 46%;
+    width: 8%;
+    border: 0px solid transparent;
+}
+.buttonchevron:active {
+    outline: none
+}
+.buttonchevron:focus {
+    outline: none
+}
+
+.bluetoothGlyph {
+    margin-top: 60px;
+    width: 75px;
+    height: 75px;
+    margin-left: 70px;
+}
+.hrcont {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+
+.iphoneBG1 {
+    position: absolute;
+    z-index: 1;
+}
+
+.press {
+    position: absolute;
+    z-index: 2;
+    margin-top: 700px;
+}
+.iphoneBG2 {
+    position: absolute;
+    z-index: 3;
+}
+.press2 {
+    position: absolute;
+    z-index: 4;
+    margin-top: 1100px;
+    margin-left: 250px;
+}
+.iphoneBG8 {
+     position: absolute;
+    z-index: 5;
+}
+.CardGenBlank {
+     position: absolute;
+    z-index: 6;
+    margin-top: 300px;
+    margin-left: 90px;
+}
+.NameInp {
+      position: absolute;
+    z-index: 7;
+    margin-top: 660px;
+    margin-left: 110px;
+}
+.LimitInp {
+      position: absolute;
+    z-index: 7;
+    margin-top: 790px;
+    margin-left: 102px;
+    width:500px;
+    height: 100px;
+}
+.LimitInp2  {
+      position: absolute;
+    z-index: 8;
+    margin-top: 790px;
+    margin-left: 102px;
+}
+.Check {
+     position: absolute;
+    z-index: 9;
+    margin-top: 900px;
+    margin-left: 129px; 
+}
+.iphoneBG9 {
+     position: absolute;
+    z-index: 9;
+}
+.press3 {
+      position: absolute;
+    z-index: 10;
+    margin-top: 940px;
+    margin-left: 250px;
+}
+.press4 {
+      position: absolute;
+    z-index: 14;
+    margin-top: 1050px;
+    margin-left: 250px;
+}
+.iphoneBG101 {
+     position: absolute;
+    z-index: 11;
+}
+.loader {
+      position: absolute;
+    z-index: 12;
+    margin-top: 800px;
+    margin-left: 300px;
+}
+.InfoSuccess {
+         position: absolute;
+    z-index: 12;
+    margin-top: 750px;
+    margin-left: 100px;
+}
+.iphoneBG10 {
+     position: absolute;
+    z-index: 13;
+}
+.iphoneBG22 {
+    position: absolute;
+    z-index: 15;
+}
+.press5 {
+    position: absolute;
+    z-index: 16;
+    margin-top: 570px;
+    margin-left: 470px;
+}
+.NetAcc {
+   position: absolute;
+    z-index: 17; 
+}
+.SecondRowTitle {
+    margin-left: 90px;
+    margin-top: 60px;
+}
+.SecondRowText {
+   margin-left: 90px;
+    margin-top: 30px; 
+    line-height: 25px;
+}
+.section2HeaderIcon {
+    margin:50px 60% 0px 40%;
+    margin-top: 50px; 
+    width: 80px;
+    height: 80px;
+}
+
+.SocLink {
+    padding-left: 45px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.SocLink1 {
+    padding-right: 45px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.SocLink2 {
+    cursor: pointer;
+    font-size: 35px;
+}
+.SocLink:hover {
+   color: black;
+}
+.SocLink1:hover {
+   color: black;
+}
+.SocLink2:hover {
+   color: black;
+}
+.ifscPic {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 300px;
+}
+.mainTitlePic {
+     margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 340px;
+}
+.Address {
+    position: absolute;
+    margin-top: -149px;
+    margin-left: 670px;
+    background-color: dimgray;
+    color: white;
+    opacity: .8;
+    padding: 4px;
+}
+.workingWith {
+    margin-top: 70px;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+/* edit contact */
+
+
+
+.group 			  { 
+  position:relative; 
+  margin-bottom:45px; 
+}
+input 				{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:60%;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+.lab				 {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ .lab, input:valid ~ .lab 		{
+  top:-20px;
+  font-size:14px;
+  color:black;
+}
+
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:black; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:black; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:black; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:black; }
+  to 	{ width:0; background:transparent; }
+}
+.ContactForm {
+    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 40px;
+    height: 100%;
+    padding-left: 18%;
+    padding-right: 18%;
+    background-color: #f8f8f8;
+    
+  
+}
+.contact-submit {
+    background-color: skyblue;
+    color:white;
+    width: 60%;
+    margin-left: -40%;
+    
+    
+}
+.centerForm {
+    width: 100%;
+    margin-left: 20%;
+}
+
+
+/* Accordian */
+
+.accordion__single__hidden {
+  display: none;
+}
+.accordion__single__hidden:checked ~ .accordion__single__answer {
+  max-height: 400px;
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+  margin-top: 14px;
+}
+.accordion__single__hidden:checked ~ .accordion__single__question:after {
+  content: '-';
+}
+.accordion__single__answer {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transform: translate(0, 50%);
+      -ms-transform: translate(0, 50%);
+          transform: translate(0, 50%);
+  -webkit-transition: all .4s ease;
+          transition: all .4s ease;
+  position: relative;
+}
+
+
+
+.accordion {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 80%;
+}
+.accordion__single {
+  margin-bottom: 30px;
+}
+.accordion__single__question {
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+}
+.accordion__single__question:hover, .accordion__single__question:focus {
+  text-decoration: underline;
+}
+.accordion__single__question:after {
+  display: inline-block;
+  margin-left: 10px;
+  color: red;
+  content: '+';
+}
+.accordion__single__answer {
+  margin-top: 5px;
+}
+
+/* Accordian End */
+
+.Section1HowWorks {
+  width: 100%; 
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.Section3HowWorks {
+   width: 100%; 
+    margin-left: 0%;
+    margin-right: 0%;  
+}
+
+.sec1HowTitle {
+    position: absolute;
+    z-index: 5;
+    font-size: 50px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+    padding-left: 115px;
+    padding-top: 100px;
+}
+.sec3HowTitle {
+    position: absolute;
+    z-index: 5;
+    font-size: 50px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+    padding-left: 115px;
+    padding-top: 100px;
+}
+
+.Section2HowWorks {
+    background-color:#f3f8f9;
+  background: -webkit-linear-gradient(left top, #f3f8f9, #f3f6fa); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #f3f8f9, #f3f6fa); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #f3f8f9, #f3f6fa); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #f3f8f9, #f3f6fa); /* Standard syntax */
+    height: 1000px;
+    margin-left: 0%;
+    margin-right: 0%;
+     margin-bottom: 190px;
+    width: 100%;
+}
+.Section4HowWorks {
+     margin-left: 0%;
+    margin-right: 0%;
+      width: 100%;
+}
+.HowWorksSect2 {
+    margin-top: 190px;
+    margin-left:-10%;
+    width: 110%;
+    height: 1000px;
+    opacity: .9;
+}
+.HowWorksSect1 {
+    padding-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+.HowWorksSect3 {
+    width: 100%;
+    height: 600px;
+}
+
+.HowWorksSect4 {
+    width: 100%;
+    height: 900px;
+    opacity: .6;
+}
+.HowWorksSect1Text {
+    line-height: 28px;
+/*    padding-top: 100px;*/
+    color:black;
+    padding-right: 100px;
+    position: absolute;
+    z-index: 5;
+}
+.HowWorksSect3Text {
+    line-height: 28px;
+    color:black;
+    padding-right: 100px;
+    position: absolute;
+    z-index: 5;
+}
+.HowWorksSect2Text {
+    line-height: 28px;
+    padding-top: 72px;
+    color:black;
+    padding-right: 100px;
+    position: absolute;
+    z-index: 5;
+}
+.HowWorksSect4Text {
+    line-height: 28px;
+    padding-top: 70px;
+    color:black;
+    padding-right: 100px;
+    position: absolute;
+    z-index: 5; 
+}
+.HowWorksSect4Text p {
+    line-height: 24px;
+   font-size: 20px;
+    position: absolute;
+    z-index: 5;
+     padding-right: 100px;
+}
+
+.HowWorksSect2Text p {
+    line-height: 24px;
+   font-size: 20px;
+    position: absolute;
+    z-index: 5;
+     padding-right: 100px;
+    margin-left: -20px;
+}
+
+.HowWorksSect1Text p {
+    line-height: 24px;
+   font-size: 20px;
+    position: absolute;
+    z-index: 5;
+     padding-left: 120px;
+    margin-top: 250px;
+}
+.HowWorksSect3Text p {
+    line-height: 24px;
+   font-size: 20px;
+    position: absolute;
+    z-index: 5;
+     padding-left: 120px;
+    margin-top: 250px;
+}
+.sec2HowTitle {
+    margin-left: -20px;
+    font-size: 50px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+}
+.sec4HowTitle {
+    
+    font-size: 50px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+
+.iphoneOutl {
+    margin-left: 70px;
+    margin-top: 70px;
+    width: 70%;
+    height: 70%;
+    
+}
+.waitTitle {
+    margin-top: 160px;
+    font-size: 35px;
+}
+.waitText {
+    margin-top: 30px;
+    line-height: 27px;   
+}
+
+.WaitingListSocialDiv {
+    z-index: 5;
+    position: absolute;
+    color:#6bb7d4;
+    font-size: 50px;
+    top:300px;
+    left:260px;
+}
+.WaitingListSocial {
+    margin-bottom: 50px;
+}
+.WaitingListSocial:hover {
+    color:#19a0d9;
+    cursor: pointer;
+}
+.SubsInput2 {
+        font-size: 24px;
+    margin-top: 60px;
+    margin-right: 10%;
+    width:90%;
+}
+.waitingRight {
+    padding-right: 70px;
+    margin-left: -30px;
+}
+.ApplyHowWBut {
+    background:#6bb7d4;
+    color:white;
+    margin-left: 43%;
+    margin-right: 43%;
+    width: 14%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.ApplyHowWBut:hover {
+    background:#19a0d9;
+    color:white;
+}

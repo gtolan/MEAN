@@ -21,3 +21,6 @@ var ApplicationConfiguration = (function () {
     registerModule: registerModule
   };
 })();
+
+
+//, 'sn.skrollr'

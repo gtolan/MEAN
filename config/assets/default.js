@@ -5,7 +5,10 @@ module.exports = {
     lib: {
       css: [
         'public/lib/bootstrap/dist/css/bootstrap.css',
-        'public/lib/bootstrap/dist/css/bootstrap-theme.css'
+        'public/lib/bootstrap/dist/css/bootstrap-theme.css',
+        'http://fonts.googleapis.com/css?family=Oxygen:400,300,700',
+        'https://fonts.googleapis.com/css?family=Roboto:400,300',
+        'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css',
       ],
       js: [
         'public/lib/angular/angular.js',
@@ -16,7 +19,8 @@ module.exports = {
         'public/lib/angular-ui-utils/ui-utils.js',
         'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
         'public/lib/angular-file-upload/angular-file-upload.js',
-        'public/lib/owasp-password-strength-test/owasp-password-strength-test.js'
+        'public/lib/owasp-password-strength-test/owasp-password-strength-test.js',
+        'https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js'
       ],
       tests: ['public/lib/angular-mocks/angular-mocks.js']
     },

@@ -1,6 +1,6 @@
 {
-  "name": "meanjs",
-  "description": "Fullstack JavaScript with MongoDB, Express, AngularJS, and Node.js.",
+  "name": "flux",
+  "description": "Flux card",
   "homepage": "http://meanjs.org/",
   "license": "MIT",
   "dependencies": {
@@ -14,7 +14,9 @@
     "angular-ui-router": "~0.2",
     "angular-file-upload": "1.1.5",
     "angular-messages": "~1.3.17",
-    "owasp-password-strength-test": "~1.3.0"
+    "owasp-password-strength-test": "~1.3.0",
+    "skrollr": "^0.6.30",
+    "angular-skrollr": "^0.2.0"
   },
   "resolutions": {
     "angular": "~1.3"
