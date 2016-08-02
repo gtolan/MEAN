@@ -8,10 +8,10 @@ module.exports = {
   },
   port: process.env.PORT || 8443,
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean',
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://<user>:<password>@aws-us-east-1-portal.22.dblayer.com:10529/fluxcard',
     options: {
-      user: '',
-      pass: ''
+      user: 'adminUser',
+      pass: 'qAspEwRES2uqaze2aGu84Amu7rA_efrE'
     },
     // Enable mongoose debug mode
     debug: process.env.MONGODB_DEBUG || false
