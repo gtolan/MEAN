@@ -896,3 +896,7 @@ input:focus ~ .highlight {
     background:#19a0d9;
     color:white;
 }
+.terms {
+    font-size: 12px;
+    margin-top: -30px;
+}
