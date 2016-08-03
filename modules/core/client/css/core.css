@@ -687,17 +687,17 @@ h1 {
     z-index: 10;
     margin-top: 70px;
     position: absolute;
-    font-size: 27px;
     padding-left: 30px;
     text-align: left;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 70px;
+    padding-right: 70px;
     color:white;
     background: black;
     opacity:.8;
     font-weight: 100;
-    line-height: 53px;
-    padding-right: 30px;
+    line-height: 39px;
+ 
 }
 .logoLargeSixthRow {
     margin-top: 100px;
