@@ -3,7 +3,7 @@
 #  mean-mongo:
 #    label: mongodb
 #    plan: 100
-#applications:
+applications:
 - name: mean
   host: mean-${random-word}
   memory: 128M
