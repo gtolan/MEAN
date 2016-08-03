@@ -4,10 +4,10 @@ var defaultEnvConfig = require('./default');
 
 module.exports = {
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://adminUser:qAspEwRES2uqaze2aGu84Amu7rA_efrE@aws-us-east-1-portal.22.dblayer.com:10529/fluxcardn',
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean-dev',
     options: {
-      user: 'adminUser',
-      pass: 'qAspEwRES2uqaze2aGu84Amu7rA_efrE'
+      user: '',
+      pass: ''
     },
     // Enable mongoose debug mode
     debug: process.env.MONGODB_DEBUG || false
