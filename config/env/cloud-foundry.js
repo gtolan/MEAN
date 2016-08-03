@@ -3,11 +3,11 @@
 var cfenv = require('cfenv'),
   appEnv = cfenv.getAppEnv();
 var cfMongoUrl = (function() {
-  if (appEnv.getService('mean-mongo')) {
-    var mongoCreds = appEnv.getService('mean-mongo').credentials;
+  if (appEnv.getService('MongoDB')) {
+    var mongoCreds = appEnv.getService('MongoDB').credentials;
     return mongoCreds.uri || mongoCreds.url;
   } else {
-    throw new Error('No service names "mean-mongo" bound to the application.');
+    throw new Error('No service names "MongoDB" bound to the application.');
   }
 }());
 

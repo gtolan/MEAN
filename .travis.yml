@@ -13,6 +13,7 @@ matrix:
     - node_js: 5
 services:
   - mongodb
+  - MongoDB
 # gcc 4.8 requires ubuntu-toolchain-r-test
 addons:
   apt:

@@ -8,6 +8,6 @@ applications:
   host: mean-${random-word}
   memory: 128M
   services:
-  - mean-mongo
+  - MongoDB
   env:
-    NODE_ENV: cloud-foundry
+    NODE_ENV: production
