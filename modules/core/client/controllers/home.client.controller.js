@@ -1,9 +1,15 @@
 'use strict';
 
 angular.module('core')
-   .controller('HomeController', ['$scope', 'Authentication', '$timeout', 
-    function ($scope, Authentication, $timeout) {
-                                             
+   .controller('HomeController', ['$scope', 'Authentication', '$timeout', '$location', '$anchorScroll',
+    function ($scope, Authentication, $timeout, $location, $anchorScroll) {
+        
+        
+      $scope.gotoIphone = function() {
+      $location.hash('IphoneAnchor');
+      $anchorScroll();
+    };
+        
     // This provides Authentication context.
       $scope.authentication = Authentication;
   

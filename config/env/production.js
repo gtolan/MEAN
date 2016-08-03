@@ -8,7 +8,7 @@ module.exports = {
   },
   port: process.env.PORT || 8443,
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://<user>:<password>@aws-us-east-1-portal.22.dblayer.com:10529/fluxcardn',
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://adminUser:qAspEwRES2uqaze2aGu84Amu7rA_efrE@aws-us-east-1-portal.22.dblayer.com:10529/fluxcardn',
     options: {
       user: 'adminUser',
       pass: 'qAspEwRES2uqaze2aGu84Amu7rA_efrE'
