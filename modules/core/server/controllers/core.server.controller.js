@@ -1,5 +1,6 @@
 'use strict';
-
+var nodemailer = require('nodemailer');
+var transporter = nodemailer.createTransport();
 /**
  * Render the main application page
  */
@@ -39,4 +40,24 @@ exports.renderNotFound = function (req, res) {
       res.send('Path not found');
     }
   });
+};
+
+/**
+ * Waiting list submission
+ * 
+ */
+exports.sendMail = function (req, res) {
+  var data = req.body;
+  var mailOptions = {
+    from: data.waitingListUser,
+    to: "contact@fluxcard.io",
+    subject: data.subject
+  };
+  transporter.sendMail(mailOptions, function(error, info) {
+    if (error) {
+      return console.log('error');
+    }
+    console.log('Message sent:' + info.response);
+  });
+  res.json(data);
 };

@@ -255,10 +255,19 @@ angular.module('core').controller('HeaderController', ['$scope', '$state', 'Auth
 'use strict';
 
 angular.module('core')
-   .controller('HomeController', ['$scope', 'Authentication', '$timeout', '$location', '$anchorScroll',
-    function ($scope, Authentication, $timeout, $location, $anchorScroll) {
-        
-        
+   .controller('HomeController', ['$scope', 'Authentication', '$timeout', '$location', '$anchorScroll', '$http',
+    function ($scope, Authentication, $timeout, $location, $anchorScroll, $http) {
+      
+      this.sendMail = function() {
+        var data = ({
+          waitingListUser: this.waitingListUser
+        });
+        $http.post('/contact', data).success(function(data, status, headers, config) {
+          alert('Thanks for signing up!');
+        }).error(function(data, status, headers, config) {
+            
+        });
+      };    
       $scope.gotoIphone = function() {
         $location.hash('IphoneAnchor');
         $anchorScroll();

@@ -1,4 +1,4 @@
-<section ng-controller="HomeController">
+<section ng-controller="HomeController as cf">
     
     <div class="container titleAnimat noPadding">
     <h3 class="mainTitleText animated flipInXTitle">Flux Dynamic Prepaid Card &copy;</h3>
@@ -14,12 +14,13 @@
 
   
   
-  
+ <form data-ng-submit="cf.sendMail()" role="form">
  <div class="input-group SubsInput col-md-offset-3 col-xs-6 ">
-  <input type="text" class="form-control SubscribeNow animated fadeInInput" placeholder="Add your email to be ahead of the queue">
+  <input type="text" class="form-control SubscribeNow animated fadeInInput" ng-model="cf.waitingListUser" placeholder="Add your email to be ahead of the queue">
   <span class="input-group-btn">
-    <button class="btn btn-default goSubBut animated fadeInInput" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+    <button class="btn btn-default goSubBut animated fadeInInput" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
   </span>
+  </form>      
 </div>
     <h3 class="mainTitleText2 animated flipInXSubTitle">Protect yourself against fraud, theft &amp; card Loss</h3>
         </div>
